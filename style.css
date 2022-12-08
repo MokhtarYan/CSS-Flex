@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+* {
+    margin: 0 auto;
+}
+
+#menu img {
+    margin : 0;
+}
+
+#menu {
+    display: flex;
+    width: 1015px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #FFFFFF;
+    padding: 0;
+   
+}
+
+ul {
+    display: flex;
+    list-style: none ;
+    padding-inline-start: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ababab;
+    line-height: 30px;
+    padding: 0;
+    margin-right: 0;
+    
+}
+
+#career a {
+    color: #ababab;
+    text-decoration: none;
+}
+
+#Aboutus a {
+    color: #00b39b;
+    text-decoration: none;
+}
+
+li {
+    display: flex;
+    justify-self: flex-start;
+    justify-content: space-between;
+    padding: 0 9px 0 9px;
+    align-items: center;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column ;
+    background-color: #FFFFFF;
+    justify-content: center;
+    
+    height: 308.781px;
+    width: 1015px;
+    margin: 33px 167px 60px 167px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    padding: 0;
+}
+
+#intro h1 {
+    font-family: 'Work Sans',Arial, sans-serif ;
+    font-size: 34px;
+    font-weight: bold;
+    color: #00b39b;
+    line-height: 44.2px;
+    height: 44.1875px;
+    width: 975px;
+    margin: 34px 0 34px 0;
+    text-align: center;
+}
+
+#pg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#intro p {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #747474;
+    height: 112px;
+    width: 470px;
+    margin: 13px 10px 13px 10px;
+}
+
+#beneficials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    width: 1015px;
+}
+
+#patients {
+    background-color: #00ccb1;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #FFFFFF;
+    height: 365px;
+    width: 245px;
+    padding: 32px 32px 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 3%;
+     
+
+
+}
+
+#doctors {
+    background-color: #3d83df;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #FFFFFF;
+    height: 365px;
+    width: 245px;
+    padding: 32px 32px 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    border-radius: 3%;
+    text-decoration: solid;
+
+}
+
+#clinics {
+    background-color: #1b2734;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20.8px;
+    color: #FFFFFF;
+    height: 365px;
+    width: 245px;
+    padding: 32px 32px 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    flex-wrap: wrap;
+    border-radius: 3%;
+    text-decoration: solid;
+
+}
+
+#beneficials h1 {
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    line-height: 33.8px;
+    height: 33.8px;
+    width: 247.625px;
+    margin: 8px 0 8px 0;
+    font-weight: bold;
+}
+
+#clinics h2 {
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    
+    line-height: 28.8px;
+    height: 86.39px;
+    width: 247.625px;
+    margin: 8px 0 8px 0;
+    margin-bottom: 35%;
+    font-weight: bold;
+}
+
+#beneficials select {
+    font-size: 19.2px;
+    line-height: 25px;
+    height: 40px;
+    width: auto;
+    padding: 0 38px 0 0;
+    background-color: transparent; 
+    border : none;
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-align: left;
+    margin: 0;
+    
+    
+ 
+}
+
+option {
+    background-color: white;
+    color: black;  
+    padding: 0;
+    margin: 0;
+}
+
+#beneficials img {
+    height: 24px;
+    width: 24px;
+    margin: 0;
+}
+
+#patients h2 {
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28.8px;
+    height: 86.39px;
+    width: 247.625px;
+    margin: 8px 0 8px 0;
+    margin-bottom: 51%;
+}
+
+#doctors h2 {
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28.8px;
+    height: 86.39px;
+    width: 247.625px;
+    margin: 8px 0 8px 0;
+    margin-bottom: 51%;
+}
+
